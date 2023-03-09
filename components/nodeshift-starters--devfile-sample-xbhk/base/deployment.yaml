@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: nodeshift-starters--devfile-sample-xbhk
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload@sha256:8209441d91a92cd4ce443cc050139d512d76b00225574156470323fd263865d2
+      - image: quay.io/redhat-appstudio/user-workload@sha256:426d1333be8a271bbc6bf1f09f0de49c3d528a3dbd2b541de329c02f3a2fea3a
         name: my-nodejs
         ports:
         - containerPort: 3001
