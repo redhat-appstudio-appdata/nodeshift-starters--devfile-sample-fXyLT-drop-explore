@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: nodeshift-starters--devfile-sample-xbhk
+  namespace: siwinski1-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio/user-workload@sha256:8209441d91a92cd4ce443cc050139d512d76b00225574156470323fd263865d2
+        name: my-nodejs
+        resources: {}
+status: {}
